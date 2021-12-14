@@ -122,15 +122,15 @@ class RegisterPengguna : AppCompatActivity() {
             "nohp_anak" to "-"
         )
 
-            fStore.collection("users").document(username)
-                .set(userData)
-                .addOnSuccessListener {
-                    Log.d("Sukses", "Pendaftaran Sukses")
-                    redirectToHome(username)
-                }
-                .addOnFailureListener { e ->
-                    Log.w("Gagal", "Error", e)
-                }
+        fStore.collection("users").document(username)
+            .set(userData)
+            .addOnSuccessListener {
+                Log.d("Sukses", "Pendaftaran Sukses")
+                redirectToHome(username)
+            }
+            .addOnFailureListener { e ->
+                Log.w("Gagal", "Error", e)
+            }
     }
 
     private fun redirectToHome(username: String) {
