@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    tools:context=".Pengguna.Fragments.ProfilPengguna">
+
+    <TextView
+        android:id="@+id/tv_profil_profil_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Profil:"
+        android:textColor="#577037"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_profil_profil_pengguna"
+        android:layout_width="336dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="41dp"
+        android:background="#F6F6F6"
+        android:backgroundTint="#F6F6F6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_email_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Email:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_email_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="raynvalshe@gmail.com"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_username_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Username:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_username_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="Arceister"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_profil_dataanak_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="134dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Data Anak:"
+        android:textColor="#577037"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_profil_dataanak_pengguna"
+        android:layout_width="336dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="163dp"
+        android:background="#F6F6F6"
+        android:backgroundTint="#F6F6F6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nama_anak_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Nama:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_nama_anak_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="Apalah Arti Sebuah Nama"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nohp_anak_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="No. HP:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_nohp_anak_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="081294113169"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_profil_datawali_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="354dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Data Wali:"
+        android:textColor="#577037"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_profil_datawali_pengguna"
+        android:layout_width="336dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="383dp"
+        android:background="#F6F6F6"
+        android:backgroundTint="#F6F6F6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nama_wali_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Nama:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_nama_wali_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="Apalah Arti Sebuah Nama"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nohp_wali_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="No. HP:"
+                android:textColor="#577037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_spec_nohp_wali_ll_pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/poppins"
+                android:text="081294113169"
+                android:textColor="#577037"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_profile_ubah_data_anak_pengguna"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52.4dp"
+        android:layout_marginTop="303.65dp"
+        android:backgroundTint="#4DCA95"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Ubah Data Anak"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:cornerRadius="0dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_profile_ubah_data_wali_pengguna"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52.4dp"
+        android:layout_marginTop="523.9dp"
+        android:backgroundTint="#4DCA95"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Ubah Data Wali"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:cornerRadius="0dp"
+        tools:visibility="visible" />
+</FrameLayout>

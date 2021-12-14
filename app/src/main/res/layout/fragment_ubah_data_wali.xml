@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    tools:context=".Pengguna.Fragments.UbahData.UbahDataWali">
+
+    <TextView
+        android:id="@+id/tv_ubah_data_wali_title_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Ubah Data Wali"
+        android:textColor="#577037"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tv_nama_ubah_data_wali_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Nama"
+        android:textColor="#FF368A53"
+        android:textSize="20sp"
+        android:layout_marginTop="137dp"
+        android:layout_marginStart="37sp"/>
+
+    <EditText
+        android:id="@+id/et_nama_ubah_data_wali_pengguna"
+        android:layout_width="337sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="37sp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/et_container_green"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_nohp_ubah_data_wali_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="No. HP"
+        android:textColor="#FF368A53"
+        android:textSize="20sp"
+        android:layout_marginTop="273dp"
+        android:layout_marginStart="37sp"/>
+
+    <EditText
+        android:id="@+id/et_nohp_ubah_data_wali_pengguna"
+        android:layout_width="337sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="37sp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/et_container_green"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_save_changes_ubah_data_wali_pengguna"
+        android:layout_width="301.6dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="411dp"
+        android:backgroundTint="#4DCA95"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Ubah Data Wali"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/button_kembali_ubah_data_wali_pengguna"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="494dp"
+        android:backgroundTint="#CA4D4D"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Kembali"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:cornerRadius="5dp" />
+
+</FrameLayout>

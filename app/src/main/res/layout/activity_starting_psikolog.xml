@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    tools:context=".Psikolog.StartingPsikolog">
+
+    <TextView
+        android:id="@+id/app_desc_main_psikolog"
+        android:layout_width="354dp"
+        android:layout_height="93dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Sebagai psikolog, anda bisa membantu pengguna untuk menangani masalahnya"
+        android:textColor="#3EC83B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Button
+        android:id="@+id/masuk_main_psikolog"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#4DCA95"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Masuk Sebagai Psikolog"
+        android:textAllCaps="false"
+        android:textColor="#3D593A"
+        android:textSize="18sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <Button
+        android:id="@+id/daftar_akun_main_psikolog"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#4DCA95"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Daftar Akun Psikolog"
+        android:textAllCaps="false"
+        android:textColor="#3D593A"
+        android:textSize="18sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+
+    <TextView
+        android:id="@+id/app_name_main_psikolog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="BetterLife"
+        android:textColor="#4CBE51"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <ImageView
+        android:id="@+id/imageView_logo_psikolog"
+        android:layout_width="95dp"
+        android:layout_height="139dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/betterlifelogo" />
+
+    <TextView
+        android:id="@+id/app_desc_main_psikolog2"
+        android:layout_width="354dp"
+        android:layout_height="93dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Silahkan daftar untuk melanjutkan. Atau silahkan login jika sudah memiliki akun."
+        android:textColor="#3EC83B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
