@@ -51,7 +51,7 @@ class LoginPengguna : AppCompatActivity() {
         } else if (TextUtils.isEmpty(password)) {
             passwordEditText.error = "Masukkan Password!"
         } else {
-            doLogin(username, password)
+            doLogin(username.lowercase(), password)
         }
     }
 

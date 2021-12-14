@@ -60,8 +60,7 @@ class HomePengguna: Fragment() {
             documentLoad.get()
                 .addOnSuccessListener { document ->
                     if (document != null) {
-                        view.findViewById<TextView>(R.id.tv_nama_pengguna_home).text = document.getString("nama")!!
-                            .split(" ")[0]
+                        view.findViewById<TextView>(R.id.tv_nama_pengguna_home).text = document.getString("nama")!!.split(" ")[0]
                         view.findViewById<TextView>(R.id.tv_nama_bukan_pengguna_home).text = (document.getString("nama")!!.split(" ")[0]) + "?"
                     }
                     Log.d("Gagal", "No such document")
